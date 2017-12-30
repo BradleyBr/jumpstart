@@ -1,0 +1,110 @@
+/*
+universal styles
+*/
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans";
+}
+
+/*
+header styles
+*/
+
+
+nav .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.nav {
+  flex-direction: row;
+}
+
+.nav .active {
+  color: #399bd1;
+}
+
+
+.nav li {
+  font-family: "Open Sans";
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+/*
+jumbotron styles
+*/
+
+
+.jumbotron {
+  background-image: url("../images/jumbotron-bike.jpg");
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton";
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000;
+  padding-top: 11.85rem;
+}
+
+.jumbotron p {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 51.3rem;
+  font-size: 1.7rem;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000, -1px -1px 0 #000;
+  padding-bottom: 2.8rem;
+}
+
+.jumbotron .btn {
+  margin-bottom: 11.85rem;
+  width: 11.4rem;
+  padding-top: 1.3rem;
+  padding-bottom: 1.3rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+.jumbotron .btn:hover {
+  box-shadow: 0 0 12px rgba(0,0,0,0.9);
+}
+
+.jumbotron .btn:active {
+  box-shadow: 0 0 0 rgba(0,0,0,0.5);
+}
+
+
+/*
+Featured project styles
+*/
+.projectheader {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+  margin-bottom: 20px;
+}
+
+#feature-project .subproject h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.product h2 {
+  color: #399bd1;
+}
+
+.product li {
+  line-height: 1.4;
+  color: rgba(0,0,0,0.7);
+}
